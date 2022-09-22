@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95f0bed1-47ef-47eb-99cc-8d359702d548" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Dishwasher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Waiter.java" afterDir="false" />
+    <list default="true" id="95f0bed1-47ef-47eb-99cc-8d359702d548" name="Changes" comment="main classes added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafe/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafe/Cafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafe/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafe/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafe/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Waiter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +42,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Game" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="game.Game" />
+      <module name="Cafe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +76,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663701386339</updated>
-      <workItem from="1663701388112" duration="3026000" />
+      <workItem from="1663701388112" duration="4356000" />
+      <workItem from="1663749155470" duration="4247000" />
+      <workItem from="1663790487130" duration="810000" />
+      <workItem from="1663873794117" duration="153000" />
+      <workItem from="1663874088650" duration="2864000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1663701655042</created>
@@ -79,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663701655042</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main classes added">
+      <created>1663704459939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663704459939</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="main classes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="main classes added" />
   </component>
 </project>
